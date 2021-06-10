@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="ja">
+  <title>Пятнашки</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <div class="header">
+    <div class="container">
+    <nav class="top-menu">
+      <ul class="menu-main">
+        <li><a href="history.html">Об игре</a></li>
+        <li><a href="rules.html">Правила</a></li>
+        <li><a href="index.html">Играть</a></li>
+      </ul>
+    </nav>
+  </div>
+  </div>
+
+  <div class="game">
+    <div class="container container_game">
+      <div class="tiles_wrapper_game">
+        <canvas id="canvas" width='280px' height='280px'> 
+      </div>
+      
+      <div class="tiles_wrapper_game">
+        <img class="img_size" src="img/animal3.png" alt="">
+      </div>
+      
+    </div>
+  </div>
+  
+  <div class="counter container_game">
+    <div class="container counter_text" id="counter">Колиество использованных ходов:</div>
+  </div> 
+
+  <script src="js/jquery-3.6.0.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
